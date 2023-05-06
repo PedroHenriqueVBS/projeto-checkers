@@ -35,16 +35,13 @@ h1 {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%);
+    
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
 	background-color:#dfdfdf;
 }
-.myButton:active {
-	position:relative;
-	top:1px;
-}
+
 
 section {
     margin: 0;
