@@ -1,6 +1,7 @@
 import os
 import random
 
+
 jogarNovamente = "s"
 jogadas = 0
 quemJoga = 2 #1 = CPU | #2 = Jogador
