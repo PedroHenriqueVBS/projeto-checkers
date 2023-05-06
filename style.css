@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
 
 
 h1 {
+    font-size: 4em;
+    font-family: 'Passion One', cursive;
     padding-top: 50px;
     text-align: center;
 }
