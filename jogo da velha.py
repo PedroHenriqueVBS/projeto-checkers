@@ -1,6 +1,5 @@
 import os
 import random
-from colorama import Fore
 
 jogarNovamente = "s"
 jogadas = 0
@@ -19,7 +18,7 @@ def tela():
     print("2:    " + matriz[1][0] + " | " + matriz[1][1] + " | "+ matriz[1][2])
     print("    -------------")
     print("3:    " + matriz[2][0] + " | " + matriz[2][1] + " | "+ matriz[2][2])
-    print("Jogadas: " + Fore.GREEN + str(jogadas) + Fore.RESET)
+    print("Jogadas: " + str(jogadas))
 
 def jogadorJoga():
     global jogadas
@@ -155,12 +154,12 @@ while(jogarNovamente == "s"):
         if(vencedor != "n") or (jogadas >= maxJogadas):
             break
 
-    print(Fore.RED + "Fim de Jogo" + Fore.YELLOW)
+    print("Fim de Jogo" )
     if vencedor == "X":
         print("Resultado: Você venceu!")
     elif vencedor == "O":
         print("A CPU venceu")
     else:
         print("Resultado: Empate")
-    jogarNovamente = input(Fore.BLUE + "Digite [s] para continuar ou [n] para sair: " + Fore.RESET)
+    jogarNovamente = input("Digite [s] para continuar ou [n] para sair: " )
     redefinir()
