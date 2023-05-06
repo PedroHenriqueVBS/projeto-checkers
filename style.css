@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
-
+body {
+    background-color: black;
+}
 
 h1 {
+    color: white;
+    text-shadow:  5px 3px 20px rgb(255 255 255 / 44%);
     font-size: 40px;
     font-family: 'Passion One', cursive;
     padding-top: 50px;
