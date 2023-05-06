@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
 
 body {
     background-color: black;
@@ -14,6 +15,7 @@ h1 {
 }
 
 .myButton {
+    
 	box-shadow:inset 0px 0px 0px 0px #ffffff;
 	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
 	background-color:#ededed;
@@ -22,7 +24,7 @@ h1 {
 	display:inline-block;
 	cursor:pointer;
 	color:#777777;
-	font-family:Arial;
+	font-family: 'Libre Baskerville', serif;
 	font-size:22px;
 	font-weight:bold;
 	padding:18px 22px;
@@ -52,8 +54,8 @@ section {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     margin: auto;
-    height: 600px;
-    width: 500px;
+    height: 500px;
+    max-width: 340px;
     
 }
 
