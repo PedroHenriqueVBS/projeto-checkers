@@ -8,36 +8,61 @@ body {
     background: linear-gradient(50deg, rgba(88,18,93,100) 21%, rgba(31,33,104,20) 71%);
 }
 
-main {
-    position: absolute;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: auto;
+.tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+.main {
     height: 500px;
     max-width: 340px;
-}
+  }
+  
+.main2 {
+    height: 500px;
+    max-width: 340px;
+  }
 
-button {
-    color: white;
-    background: rgb(59,0,107);
-    background: linear-gradient(297deg, rgba(59,0,107,1) 35%, rgba(142,7,185,1) 90%);
+#img_redonda{
     border: 3px solid rgb(217, 9, 206);
     border-radius: 50%;
-    margin: 10px;
+    margin: 25px;
     width: 100px;
     height: 100px;
     font-family: 'Libre Baskerville', serif;
     font-size: 20px;
     font-weight: bold;
-}
 
-button:hover { 
+}
+#img_redonda:hover{
     background: linear-gradient(297deg, rgb(164, 3, 164) 35%, rgb(79, 1, 103) 90%);
     width: 130px;
     height: 130px;
     transition-duration: 450ms;
 }
+#text{
+    color: white;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto
+}
+title{
+    color: white;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: auto
 
+}
+
+   
+
+    
+    
