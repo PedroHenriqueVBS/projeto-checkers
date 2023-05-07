@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: 50vh; 
   }
   
 .main {
@@ -81,7 +81,18 @@ title{
     margin: auto
 
 }
+header {
+    color: white;
+    text-align: center;
+ }
 
+ header h1 {
+    margin-top: -100px;
+    padding-top: 150px;
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 7vw;
+ }
    
 
     
