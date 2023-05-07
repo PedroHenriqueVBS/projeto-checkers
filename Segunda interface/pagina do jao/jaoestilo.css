@@ -81,7 +81,6 @@ html, body {
    background-color: black;
    background-position: center;
    background-size: cover;
-   border-radius: 10%;
  }
 
  
@@ -91,22 +90,3 @@ html, body {
     text-align: center;
     padding: 10px;
  }
-section.cor::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 20%;
-  height: 100%;
-  background-color: white;
-}
-
-section.cor::after {
-  content: '';
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 20%;
-  height: 100%;
-  background-color: white;
-}
