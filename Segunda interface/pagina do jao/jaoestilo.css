@@ -19,8 +19,8 @@ html, body {
     font-family: var(--font1);
 }
  header {
-    background-color: black;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.384);
+    color: black;
     text-align: center;
  }
 
@@ -36,7 +36,7 @@ html, body {
  }
   
  a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bolder;
  }
@@ -78,7 +78,7 @@ html, body {
  }
 
  section#preto {
-   background-color: black;
+   background-color: rgb(0, 0, 0);
    background-position: center;
    background-size: cover;
  }
