@@ -25,7 +25,7 @@ body {
     max-width: 340px;
   }
 
-  #img_redonda{
+  #img_redonda {
     background-image: url('foto2.jpg');
     border: 3px solid rgb(217, 9, 206);
     border-radius: 50%;
@@ -37,14 +37,14 @@ body {
     font-weight: bold;
 }
 
-#img_redonda:hover{
+#img_redonda :hover{
     background: linear-gradient(297deg, rgb(164, 3, 164) 35%, rgb(79, 1, 103) 90%);
     width: 130px;
     height: 130px;
     transition-duration: 450ms;
 }
 
-#img_redonda2{
+#img_redonda2 {
     background-image: url('image.png');
     border: 3px solid rgb(217, 9, 206);
     border-radius: 50%;
@@ -56,7 +56,7 @@ body {
     font-weight: bold;
 }
 
-#img_redonda2:hover{
+#img_redonda2 :hover{
     background: linear-gradient(297deg, rgb(164, 3, 164) 35%, rgb(79, 1, 103) 90%);
     width: 130px;
     height: 130px;
